@@ -22,9 +22,9 @@ cloudinary.config({
 try {
     mongoose.connect(url, {
         //useMongoClient: true
-    })    
+    })
 } catch (error) {
-    
+
 }
 
 let port = 5000 || process.env.PORT

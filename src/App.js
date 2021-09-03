@@ -13,12 +13,12 @@ import SignInWith from './components/SignInWith'
 class App extends Component {
     render() {
         const pathname = window.location.pathname
-        return ( 
+        return (
             <div>
-            { !pathname.includes('editor') ? <Header /> : '' }
-            <SignInWith />
+                {!pathname.includes('editor') ? <Header /> : ''}
+                <SignInWith />
                 <Switch>
-                
+
                     <Route exact path="/" component={Feed} />
 
                     <Route path="/profile/:id" component={Profile} />
