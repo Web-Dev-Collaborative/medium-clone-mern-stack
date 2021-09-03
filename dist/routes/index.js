@@ -1,7 +1,7 @@
-const user = require('./user')
-const article = require('./article')
+const user = require("./user");
+const article = require("./article");
 
 module.exports = (router) => {
-    user(router)
-    article(router)
-}
+  user(router);
+  article(router);
+};

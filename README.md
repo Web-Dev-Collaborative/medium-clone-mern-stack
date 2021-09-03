@@ -10,6 +10,7 @@
 1. [MongoDB](https://mongodb.com)
 
 ### Features
+
 - Write a story
 - Social Sign-in - Google+
 - story detail view
@@ -18,29 +19,32 @@
 - Add a clap to a story
 
 ### Installation
-* Git clone this repo [here](https://github.com/mactunechy/meduim-clone-mearn-stack.git).
-* Move into the folder from your terminal:
+
+- Git clone this repo [here](https://github.com/mactunechy/meduim-clone-mearn-stack.git).
+- Move into the folder from your terminal:
+
 ```sh
     cd medium-clone-on-node
 ```
-* Run `npm install` to install node dependencies.
-* Start MongoDB instance: `mongodb`.
-* Run `npm run dev` to start the `nodeidon` daemon.
+
+- Run `npm install` to install node dependencies.
+- Start MongoDB instance: `mongodb`.
+- Run `npm run dev` to start the `nodeidon` daemon.
 
 ## App Screenshots
 
 ### **Article View**
+
 ![](screenshots/article_view.png)
 
-
 ### **Feed**
+
 ![](screenshots/feed.png)
 
-
 ### **Profile**
+
 ![](screenshots/profile.png)
 
-
 ### **SignInWith Google**
-![](screenshots/signinwith.png)
 
+![](screenshots/signinwith.png)

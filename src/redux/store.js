@@ -1,10 +1,10 @@
-import { applyMiddleware, createStore } from 'redux';
+import { applyMiddleware, createStore } from "redux";
 //import { createLogger } from 'redux-logger'
-import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
-import reducer from './reducer';
-import thunk from 'redux-thunk'
+import { composeWithDevTools } from "redux-devtools-extension/developmentOnly";
+import reducer from "./reducer";
+import thunk from "redux-thunk";
 
-import createHistory from 'history/createBrowserHistory';
+import createHistory from "history/createBrowserHistory";
 
 export const history = createHistory();
 
@@ -12,4 +12,6 @@ export const history = createHistory();
 //const myRouterMiddleware = routerMiddleware(history);
 
 export const store = createStore(
-  reducer, composeWithDevTools(applyMiddleware(thunk)));
+  reducer,
+  composeWithDevTools(applyMiddleware(thunk))
+);
